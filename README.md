@@ -22,3 +22,8 @@ h-	Create Pivot table and Pivot Chart that describe the difference between QtyKP
 a-	Show the Measures (Customer Count, Product Count, sales man Count, Channel Count, Qty, Total Price, Fact table count “Number of orders”)
 b-	Create a perspective “Channel product perspective” that shows the Customer name , Channel Location , Qty Measure and the Total Price For each Qty
 4-	Use “Product Cube” to Create Pivot table and Pivot Chart that describe the data in this cube. Note  “Use Microsoft Excel 2007 ”
+
+
+![ssas](https://github.com/user-attachments/assets/7829eb15-9581-415e-a64e-8201c930c6f0)
+
+![ssas1](https://github.com/user-attachments/assets/8b2f82d6-7ed3-4930-a0a2-714dcc5d7776)
