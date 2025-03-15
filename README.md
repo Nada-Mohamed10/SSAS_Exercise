@@ -1,11 +1,11 @@
 ##SQL Server Analysis Services (SSAS)
 
 #### Use Internet sales “Dataware housing”
-1-	Create Cube “Product Cube” that shows Product Qty over Years 
-a-	Use Product Dimension to show (Product ID,ProductName) columns
-b-	Use time dimension to show (CalenderYear) column 
-c-	Use [fact Sales] to Show  (Qty) Measure
-
+1- 	Create Cube “Product Cube” that shows Product Qty over Years 
+-	Use Product Dimension to show (Product ID,ProductName) columns
+-	Use time dimension to show (CalenderYear) column
+-	Use [fact Sales] to Show  (Qty) Measure
+  
 2-	Create Cube “Prod_Cust Cube” that shows the relation between Product, Customer over Time
 a-	Use Product Dimension to show (Product ID, Product Name, Product Category) columns
 b-	Use Customer Dimension to show (Customer ID, Customer Name, Product Address) columns
