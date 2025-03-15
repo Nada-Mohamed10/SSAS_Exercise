@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "BI_LAB2", "BI_LAB2\BI_LAB2.dwproj", "{08DBC446-AE69-7A2C-82E7-53B3D308A15A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08DBC446-AE69-7A2C-82E7-53B3D308A15A}.Development|Default.ActiveCfg = Development
+		{08DBC446-AE69-7A2C-82E7-53B3D308A15A}.Development|Default.Build.0 = Development
+		{08DBC446-AE69-7A2C-82E7-53B3D308A15A}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09CC5942-E122-4895-9DC6-A6EC79478E92}
+	EndGlobalSection
+EndGlobal

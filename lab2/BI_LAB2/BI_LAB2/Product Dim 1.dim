@@ -1,0 +1,237 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e94a9fee-db11-4445-9a0f-3ab57722a477" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Product Dim 1</ID>
+  <Name>Product Dim 1</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1864" scrolltop="-4657" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7091" y="11621" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900120480100144d6963726f736f66742053616e73205365726966" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ProductDim" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3323" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000fb0c000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_ProductDim" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1864</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4657</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="45174bca-7719-4f38-9986-d7bfd03f4044">
+    <DataSourceViewID>Sales_DV2</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="476fbc57-284b-4b0f-9952-07fe12fc8123">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="d10b47c6-8fde-422d-91e4-cc4d1016319b">
+      <ID>Product ID</ID>
+      <Name>Product ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="68543257-301f-4651-8953-6d7bee63448c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="919ea109-a875-4a85-aba0-cad1127f3fb2">
+            <TableID>dbo_ProductDim</TableID>
+            <ColumnID>ProductID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="131ce2f8-8c51-4776-b781-ebae20d1cc35">
+          <Language>3073</Language>
+          <Caption>معرف المنتج</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="be0617da-347e-4cda-83f5-9ed942c3b04b">
+          <AttributeID>Product Name</AttributeID>
+          <Name>Product Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="18287995-9fad-4e7d-960b-c22d0d0dc187">
+          <AttributeID>Product Price</AttributeID>
+          <Name>Product Price</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f7f13237-35f1-4a5a-8d0f-9e7f94e5a4d1">
+          <AttributeID>Product Category</AttributeID>
+          <Name>Product Category</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a1b076fc-852b-463f-97b3-b50d92a47102">
+      <ID>Product Name</ID>
+      <Name>Product Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ea1de281-0412-4490-9709-36ff572495ba">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5be535c8-321a-4553-8675-dff79fe41ade">
+            <TableID>dbo_ProductDim</TableID>
+            <ColumnID>ProductName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="abf48da2-c73b-4d6a-931a-9369a7ad4d38">
+          <Language>3073</Language>
+          <Caption>اسم المنتج</Caption>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fd3edf1a-0b9d-4f0b-9c97-5fcf7789c207">
+      <ID>Product Price</ID>
+      <Name>Product Price</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="15296c4b-5c91-49bb-b968-84b42a946725">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5146146f-836f-44f4-9a57-13c5e5f4a290">
+            <TableID>dbo_ProductDim</TableID>
+            <ColumnID>ProductPrice</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="e501f78f-d4bf-492e-882f-5556d2110c66">
+          <Language>3073</Language>
+          <Caption>سعر المنتج</Caption>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3be981d6-4b70-4cd0-a94a-f677be7d85de">
+      <ID>Product Category</ID>
+      <Name>Product Category</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e4ac124e-9c4d-4939-b126-1d172142ea3a">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8a276e18-5f54-42c3-8293-cd2b5771c1be">
+            <TableID>dbo_ProductDim</TableID>
+            <ColumnID>ProductCategory</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="bb268163-7ac7-49ad-81c5-d0a5af149544">
+          <Language>3073</Language>
+          <Caption>فئة المنتجات</Caption>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="44ca446a-a5bc-4ad7-8ba5-0e310518674a">
+      <ID>Hierarchy</ID>
+      <Name>Product</Name>
+      <Levels>
+        <Level dwd:design-time-name="82074013-f4a8-4f49-bf23-35f6fce2676b">
+          <ID>Product ID</ID>
+          <Name>Product ID</Name>
+          <SourceAttributeID>Product ID</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="b741e6f9-c1f0-4f93-8525-5569da81050a">
+              <Language>3073</Language>
+              <Caption>معرف المنتج</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="fce94562-4666-4744-8500-b69a2823a0db">
+          <ID>Product Name</ID>
+          <Name>Product Name</Name>
+          <SourceAttributeID>Product Name</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="241db08c-7bbe-4b2e-80de-a06fe170f6d2">
+              <Language>3073</Language>
+              <Caption>اسم المنتج</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="c69ccad9-ef43-4a91-a5e4-5331f02482fd">
+          <ID>Product Category</ID>
+          <Name>Product Category</Name>
+          <SourceAttributeID>Product Category</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="8c81e712-794d-4864-8611-e1f58569d0aa">
+              <Language>3073</Language>
+              <Caption>فئة المنتجات</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="6dd6cbf5-fe62-412e-ac44-9318cdd30950">
+          <ID>Product Price</ID>
+          <Name>Product Price</Name>
+          <SourceAttributeID>Product Price</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="d2b22dae-88eb-44ab-ac94-133ee812cf79">
+              <Language>3073</Language>
+              <Caption>سعر المنتج</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
